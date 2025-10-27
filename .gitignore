@@ -1,0 +1,79 @@
+# --- PYTHON ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# --- DJANGO ---
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+static/
+.env
+.env.*
+*.env
+
+# --- MIGRATIONS (opcional, comente se quiser versionar) ---
+# */migrations/
+# !*/migrations/__init__.py
+
+# --- VIRTUAL ENVIRONMENTS ---
+venv/
+env/
+ENV/
+.venv/
+.virtualenv/
+
+# --- IDEs & EDITORS ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- SYSTEM FILES ---
+.DS_Store
+Thumbs.db
+
+# --- TESTS & COVERAGE ---
+.coverage
+htmlcov/
+*.cover
+.tox/
+.nox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# --- CACHE & TEMP FILES ---
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+__pycache__/
+*.mo
+*.egg-info/
+.eggs/
+dist/
+build/
+*.bak
+*.swp
+*.tmp
+*.orig
+
+# --- DEPLOY / DOCKER (caso use) ---
+*.pid
+*.seed
+*.pid.lock
+celerybeat-schedule
+celerybeat.pid
+instance/
+.webassets-cache
+docker-compose.override.yml
